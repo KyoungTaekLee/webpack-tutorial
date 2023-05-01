@@ -35,5 +35,24 @@ webpack.config.js
 
 webpack은 javascript 파일을 정의 파일로 요구하는 특이한 특성을 가지고 있다.(보통은 JSON이나 yaml 파일, bat 파일을 요구한다.)
 
+commonJS 방식으로 작성할 때는 이렇게 작성하는 것이 기본형식이다.
 
+module.exports = {
+  entry: "진입점 파일, 메인파일",
+  output: {
+    filename: '번들할 파일이름',
+  },
+};
+
+-----------
+
+7. webpack 실행하기
+
+명령줄에 다음과 같이 작성한다.
+
+npx webpack build
+
+여기서 npx는 npm(node package manager) execute(실행)의 합성어로
+의존하고있는 모듈(패키지)를 실행할 때 사용한다.
+개발'용' 패키지 이므로 npx 명령어를 사용한다. 
 
