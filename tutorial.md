@@ -16,3 +16,14 @@
 
 4. 개발환경에서 번들러를 사용할 것이므로, CLI 환경으로 webpack을 다루는 것이 일반적이다. 따라서 webpack을 cli에서 명령할 수 있게끔 도와주는 추가적인 모듈을 함께 설치한다.
 ` npm install --save-dev webpack-cli `
+
+5. webpack 소프트웨어와 webpack을 cli환경에서 핸들링할 수 있게 해주는 webpack-cli 모듈 두개가
+devDependencies 라는 package.json 항목에 추가되어있는지를 확인한다.
+
+  "devDependencies": {
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  }
+
+  이렇게 두개가 잘 작성되어있다면 기본 설치 완료
+
