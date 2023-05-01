@@ -27,3 +27,13 @@ devDependencies 라는 package.json 항목에 추가되어있는지를 확인한
 
   이렇게 두개가 잘 작성되어있다면 기본 설치 완료
 
+6. webpack을 어떻게 사용할 것인지에 대한 '정의'가 필요한데, 이것을 config 파일이라고 부른다.
+- webpack을 사용하기 위한 약속이므로 정확하게 이름을 작성하여 파일을 생성한다.
+
+webpack.config.js
+" webpack글씨다음에.(온점)이 들어간 것을 확인 할 수 있다.
+
+webpack은 javascript 파일을 정의 파일로 요구하는 특이한 특성을 가지고 있다.(보통은 JSON이나 yaml 파일, bat 파일을 요구한다.)
+
+
+
